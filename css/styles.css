@@ -1,0 +1,137 @@
+body {
+  background-color: #666666;
+  font-family: "Montserrat"
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+#title {
+  background-color: #358E9D;
+  color: #666666;
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+
+}
+.navbar {
+  padding: 0 0 1.5rem;
+  height: 50px;
+}
+
+.ribelle-img {
+  width: 15%;
+  border-radius: 100%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.introductionheading {
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.row {
+  padding-top: 3%;
+}
+
+.title-image {
+  width: 35%;
+  margin-left: 100px;
+  border-radius: 50%;
+
+}
+
+#featuresandhistory {
+  padding: 7% 15%;
+  font-family: 'Montserrat';
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #358E9D;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #98ddca;
+}
+
+
+
+#hobbies {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #666666;
+  color: #000;
+  font-family: 'Montserrat';
+}
+
+.hobbies-together {
+  width: 420px;
+  height: 300px;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#history {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #358E9D;
+  color: #000;
+  font-family: 'Montserrat';
+}
+
+.rhastahistoryheading {
+  font-size: 2.5rem;
+}
+
+.rhastahistory {
+  width: 60%;
+  padding: 3% 15%;
+}
+
+#footer {
+  font-family: 'Montserrat';
+  background-color: #358E9D;
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+
+@media (max-width 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
